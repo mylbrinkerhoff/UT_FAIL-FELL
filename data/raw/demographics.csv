@@ -1,0 +1,53 @@
+file_name,group,speaker_num,age,gender,hometown,hometown_county,pre_1990,foreign_language,time_out_of_utah,occupation
+UT_001,intvr,1,34,male,Clearfield,Davis,FALSE,German,12,postdoc
+UT_001,001,2,34,female,Syracuse,Davis,FALSE,French,0,nurse
+UT_002,intvr,1,34,male,Clearfield,Davis,FALSE,German,12,postdoc
+UT_002,002,2,30,female,Syracuse,Davis,FALSE,German,1.5,mother
+UT_003,intvr,1,34,male,Clearfield,Davis,FALSE,German,12,postdoc
+UT_003,003,2,35,female,Syracuse,Davis,FALSE,NA,0,"financial analyst"
+UT_004,intvr,1,34,male,Clearfield,Davis,FALSE,German,12,postdoc
+UT_004,004,2,35,female,"Hyde Park",Cache,FALSE,NA,0,mother
+UT_005,intvr,1,34,male,Clearfield,Davis,FALSE,German,12,postdoc
+UT_005,005,2,28,female,"North Logan",Cache,FALSE,NA,1.5,mother
+UT_006,intvr,1,34,male,Clearfield,Davis,FALSE,German,12,postdoc
+UT_006,006,2,34,male,"West Jordan","Salt Lake",FALSE,Spanish,2,"data analyst"
+UT_007,intvr,1,34,male,Clearfield,Davis,FALSE,German,12,postdoc
+UT_007,007,2,38,male,Liberty,Weber,TRUE,ASL,2,statistician
+UT_008,intvr,1,34,male,Clearfield,Davis,FALSE,German,12,postdoc
+UT_008,008,2,35,female,Syracuse,Davis,FALSE,French,0,mother
+UT_009,intvr,1,34,male,Clearfield,Davis,FALSE,German,12,postdoc
+UT_009,009,2,45,female,Kaysville,Davis,TRUE,Japanese,0,teacher
+UT_010,intvr,1,34,male,Clearfield,Davis,FALSE,German,12,postdoc
+UT_010,010,2,52,female,"St. George",Washington,TRUE,NA,2,teacher
+UT_011,intvr,1,34,male,Clearfield,Davis,FALSE,German,12,postdoc
+UT_011,011,2,48,female,Orem,Utah,TRUE,Spanish,5,teacher
+UT_012,intvr,1,34,male,Clearfield,Davis,FALSE,German,12,postdoc
+UT_012,012,2,53,female,Roy,Weber,TRUE,Spanish,7,teacher
+UT_013,intvr,1,34,male,Clearfield,Davis,FALSE,German,12,postdoc
+UT_013,013,2,54,male,Kaysville,Davis,TRUE,Flemish,2,teacher
+UT_014,intvr,1,34,male,Clearfield,Davis,FALSE,German,12,postdoc
+UT_014,014,2,30,male,Clearfield,Davis,FALSE,NA,0.5,mechanic
+UT_015,intvr,1,34,male,Clearfield,Davis,FALSE,German,12,postdoc
+UT_015,015,2,27,female,Kearns,"Salt Lake",FALSE,ASL,0,student
+UT_016,intvr,1,34,male,Clearfield,Davis,FALSE,German,12,postdoc
+UT_016,016,2,57,female,Huntington,Emery,TRUE,ASL,0,teacher
+UT_017,intvr,1,34,male,Clearfield,Davis,FALSE,German,12,postdoc
+UT_017,017,2,25,male,Syracuse,Davis,FALSE,German,0,logistics
+UT_018,intvr,1,34,male,Clearfield,Davis,FALSE,German,12,postdoc
+UT_018,018,2,27,male,Layton,Davis,FALSE,Spanish,0,logistics
+UT_019,intvr,1,34,male,Clearfield,Davis,FALSE,German,12,postdoc
+UT_019,019,2,27,female,Syracuse,Davis,FALSE,NA,0,hairstylist
+UT_020,intvr,1,34,male,Clearfield,Davis,FALSE,German,12,postdoc
+UT_020,020,2,25,male,Kearns,"Salt Lake",FALSE,NA,0,student
+UT_021,intvr,1,34,male,Clearfield,Davis,FALSE,German,12,postdoc
+UT_021,021,2,52,male,Syracuse,Davis,TRUE,Spanish,2,photographer
+UT_022,intvr,1,34,male,Clearfield,Davis,FALSE,German,12,postdoc
+UT_022,022,2,18,female,Kaysville,Davis,FALSE,NA,0,student
+UT_023,intvr,1,34,male,Clearfield,Davis,FALSE,German,12,postdoc
+UT_023,023,2,52,female,Murry,"Salt Lake",TRUE,French,0,counselor
+UT_024,intvr,1,34,male,Clearfield,Davis,FALSE,German,12,postdoc
+UT_024,024,2,56,male,Ammon,Bonneville,TRUE,NA,17,manager
+UT_025,intvr,1,34,male,Clearfield,Davis,FALSE,German,12,postdoc
+UT_025,025,2,35,female,Syracuse,Davis,FALSE,NA,5,librarian
+UT_026,intvr,1,34,male,Clearfield,Davis,FALSE,German,12,postdoc
+UT_026,026,2,43,male,Koosharem,Sevier,TRUE,Russian,2,author
