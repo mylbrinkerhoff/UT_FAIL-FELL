@@ -2,7 +2,7 @@
 # File: 001_startHere.R
 # Project: UT_FAIL-FELL
 # Author: Mykel Brinkerhoff
-# Date: 2026-06-01 (M)
+# Date: 2026-05-31 (Su)
 # Description: What does this script do?
 #
 # Usage:
@@ -15,20 +15,21 @@
 
 ### install packages if not yet installed
 # renv::install(
-#     packages = c(
-#         "tidyverse",
-#         "viridis",
-#         "here",
-#         "remotes",
-#         "tidynorm",
-#         "ggokabeito",
-#         "adehabitatHR",
-#         "sp",
-#         "purrr",
-#         "reticulate",
-#         "geomtextpath"
-#     )
+#   packages = c(
+#     "tidyverse",
+#     "viridis",
+#     "here",
+#     "remotes",
+#     "tidynorm",
+#     "ggokabeito",
+#     "adehabitatHR",
+#     "sp",
+#     "purrr",
+#     "reticulate",
+#     "geomtextpath"
+#   )
 # )
+
 # remotes::install_github("joeystanley/joeyr") # helper functions from joeystanley
 # remotes::install_github("joeystanley/joeysvowels") # vowel datasets
 
