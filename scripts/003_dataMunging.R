@@ -18,22 +18,26 @@ ut_vowels_sub <- ut_vowels |>
   dplyr::filter(
     stress == c(1, 2),
     group != "intvr",
-    # !phoneme %in%
-    #   c(
-    #     "PRICE",
-    #     "MOUTH",
-    #     "CHOICE",
-    #     "NURSE",
-    #     "NEAR",
-    #     "START",
-    #     "FORCE",
-    #     "SQUARE",
-    #     "CURE"
-    #   )
+    !phoneme %in%
+      c(
+        "PRICE",
+        "MOUTH",
+        "CHOICE",
+        "NURSE",
+        "NEAR",
+        "START",
+        "FORCE",
+        "SQUARE",
+        "CURE",
+        "eyr"
+      )
   ) |>
   joeyr::code_allophones(
     .old_col = phoneme,
     .pre_seg = pre_seg,
     .fol_seg = fol_seg
   ) |>
-  dplyr::arrange(file_name, time)
+  dplyr::arrange(file_name, time) |>
+  dplyr::mutate(
+    phoneme_ipa = joeyr::wells_to_ipa(phoneme)
+  )

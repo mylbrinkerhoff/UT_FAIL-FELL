@@ -14,7 +14,7 @@ fave_code_allophones <- function(.df) {
       FOOT = "u",
       GOOSE = c("Tuw", "uw"),
       STRUT = "ʌ",
-      PRICE = "ay",
+      PRICE = c("ay", "ay0"),
       MOUTH = "aw",
       CHOICE = "oy",
       NURSE = "*hr",

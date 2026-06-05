@@ -30,7 +30,7 @@ vowels_clean <- ut_vowels_sub |>
 vowels_clean <- vowels_clean |>
   dplyr::mutate(
     is_outlier = joeyr::find_outliers(F1, F2, keep = 0.95),
-    .by = c("label"),
+    .by = c("allophone"),
   ) |>
   dplyr::filter(
     !is_outlier
