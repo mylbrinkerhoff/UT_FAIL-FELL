@@ -191,7 +191,7 @@ prelateral |>
   ) +
   ggplot2::theme_bw() +
   ggplot2::theme(legend.position = "none") +
-  ggplot2::facet_wrap(. ~ gender) -> ut_prelateral_gender
+  ggplot2::facet_wrap(pre_1990 ~ gender) -> ut_prelateral_gender
 ut_prelateral_gender
 
 

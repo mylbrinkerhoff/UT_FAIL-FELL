@@ -8,12 +8,12 @@
 \usepackage[main=american, german]{babel}% Recommended
 \usepackage{csquotes}% Recommended
 \usepackage[backend=biber,
-    style=numeric,
+    style=numeric-comp,
     maxcitenames=3,
     maxbibnames=99,
-    natbib,
+    % natbib,
     url=false]{biblatex}
-\addbibresource{Dissertation.bib}
+\addbibresource{prelateral.bib}
 \setcounter{biburlnumpenalty}{100}  % allow URL breaks at numbers
 % \setcounter{biburlucpenalty}{100}   % allow URL breaks at uppercase letters
 % \setcounter{biburllcpenalty}{100}   % allow URL breaks at lowercase letters
@@ -119,33 +119,35 @@
 
 % \tableofcontents
 
-\paragraph{Introduction:} 
+\paragraph{Introduction:} Prelateral mergers are a common feature across different Englishes \cite{wellsAccentsEnglish1982}.
 
 \paragraph{Methods:} 
 
 \paragraph{Results:} 
-
-
 
 \paragraph{Conclusions:} 
 
 %------------------------------------
 %BIBLIOGRAPHY
 %------------------------------------
-% \newpage
+\newpage
 
 \begin{table}[ht!]
 \centering
 \caption{Table showing overlap measures for FAIL-FELL merger in Utah English}
-\begin{tabular}{lrrrrr}
+\begin{tabular}{llrrrrr}
   \hline
-Speaker groups & Bhattacharyya Affinity & Pillai Score & Pillai \textit{p-value} & Pillai threshold \\ 
+  Speaker & Bhatt. Affinity & Bhatt. Distance & Pillai Score & \textit{p-value} & Merger cutoff \\ 
   \hline
-  All & 0.7975748 & 0.2588685 & $<$0.001 & 0.03142522 \\ 
-  pre--1990 & 0.7876935 & 0.2142402 & $<$0.001 & 0.07766520 \\ 
-  post--1990 & 0.7894254 & 0.2946653 & $<$0.001 & 0.05278217 \\ 
-  females & 0.6946925 & 0.3724075 & $<$0.001 & 0.06108498 \\ 
-  males & 0.8250153 & 0.2404406 & $<$0.001 & 0.06472100 \\ 
+  All & 0.7975748 & 0.2261797 & 0.2588685 & $<$0.001 & 0.03142522 \\ 
+  Pre-1990 & 0.7876935 & 0.2386462 & 0.2142402 & $<$0.001 & 0.07766520 \\ 
+  Post-1990 & 0.7894254 & 0.2364500 & 0.2946653 & $<$0.001 & 0.05278217 \\ 
+  Females & 0.6946925 & 0.3642859 & 0.3724075 & $<$0.001 & 0.06108498 \\ 
+  Females (pre-1990) & 0.7219011 & 0.3258672 & 0.3178800 & $<$0.001 & 0.13259911 \\ 
+  Females (post-1990) & 0.6434517 & 0.4409083 & 0.4457942 & $<$0.001 & 0.11326174 \\ 
+  Males & 0.8250153 & 0.1923534 & 0.2404406 & $<$0.001 & 0.06472100 \\ 
+  Males (pre-1990) & 0.8302639 & 0.1860117 & 0.1658456 & 0.095 & 0.18746771 \\ 
+  Males (post-1990) & 0.7760400 & 0.2535512 & 0.2935624 & $<$0.001 & 0.09884661 \\ 
   \hline
 \end{tabular}
 \end{table}
@@ -157,7 +159,7 @@ Speaker groups & Bhattacharyya Affinity & Pillai Score & Pillai \textit{p-value}
 %     \label{fig:predictor_importance}
 % \end{figure}
 
-% \printbibliography[heading=bibintoc]
+\printbibliography[heading=bibintoc]
 
 
 
